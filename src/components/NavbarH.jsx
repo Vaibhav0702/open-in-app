@@ -36,7 +36,7 @@ export const NavbarH = () => {
     return (
         <div class='flex justify-end'>
 
-            <div class=" w-full lg:w-[75%] border  bg-[#f8faff]">
+            <div class="w-full lg:w-[82%] bg-[#f8faff] border">
                 <div class='flex justify-between bg-white p-4'>
                     <div class='flex'>
 
@@ -259,7 +259,7 @@ export const NavbarH = () => {
 
             <div
                 id="drawer-navigation"
-                className="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform bg-white "
+                className="fixed border lg:w-[18%] top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform bg-white "
                 tabIndex="-1"
                 aria-labelledby="drawer-navigation-label"
                 style={{ transform: drawerOpen ? 'translateX(0)' : 'translateX(-100%)' }}
