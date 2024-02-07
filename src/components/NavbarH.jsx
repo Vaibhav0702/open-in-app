@@ -233,7 +233,7 @@ export const NavbarH = () => {
                 </div>
 
 
-                {!uploaded ? "" : <div class='border'>
+                {!uploaded ? "" : <div>
                     <div>
                         <h2 className="text-3xl font-bold mb-10">Uploads</h2>
                     </div>
